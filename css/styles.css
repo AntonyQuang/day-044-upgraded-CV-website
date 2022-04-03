@@ -1,3 +1,5 @@
+/* GENERAL TEXT */
+
 body {
     margin: 0;
     text-align: center;
@@ -50,6 +52,8 @@ hr {border-style: dotted none none;
     margin: 100px auto;
     }
 
+/* CONTAINERS */
+
 .top-container {
     background-color: #EAF6F6;
     width: 100%;
@@ -69,12 +73,23 @@ hr {border-style: dotted none none;
     background-color: #66BFBF;
 }
 
+/* SPECIFIC TEXT SECTIONS */
 
 .skill-row {
+    display: block;
     width: 50%;
     margin: 100px auto;
     text-align: left;
 }
+
+.education-row {
+    display: block;
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    clear: left;
+}
+
 
 .pro {
     text-decoration: underline;
@@ -84,6 +99,12 @@ hr {border-style: dotted none none;
     width: 30%;
     margin: auto;
 }
+
+.skill-description {
+    display: inline;
+}
+
+/* IMAGES */
 
 .top-cloud{
     position: absolute;
@@ -97,25 +118,51 @@ hr {border-style: dotted none none;
     bottom: 300px;
 }
 
-.code-img {
-    width: 25%;
-    float: left;
+.python-img {
+    display: inline;
+    width: 20%;
     margin-right: 30px;
+    float: left;
+
 }
 
-.chilli-img {
+.office-img {
+    display: inline;
+    width: 20%;
+    margin-right: 30px;
+    float: left;
+
+}
+
+.html-img {
+    display: inline;
     width: 25%;
     float: right;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
-.line {
-    clear: right;
+.imperial-img {
+    display: inline-block;
+    width: 20%;
+    margin:0 30px 50px 0;
+    float: left;
+
 }
 
-.chilli-skill-description {
-    clear: right;
+.wilsons-img {
+    display: inline;
+    width: 15%;
+    float: right;
+    margin-left: 30px;
 }
+
+.antony-photo {
+    border-radius: 100%;
+    max-width: 15%;
+    height: auto;
+}
+
+/* CONTACT ME  */
 
 .contact-message{
     width: 30%;
