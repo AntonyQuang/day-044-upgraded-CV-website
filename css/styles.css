@@ -27,6 +27,7 @@ h2 {
 
 p {
         line-height: 2;
+        overflow: hidden;
 }
 
 h3 {
@@ -39,10 +40,16 @@ a {
     color: #11999E;
     font-family: "Montserrat", sans-serif;
     margin: 10px 20px;
-    text-decoration: none;
     font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
 }
 
+ul li{
+    padding: 5px;
+    list-style-position: inside;
+
+}
 
 hr {border-style: dotted none none;
     border-width: 6px;
@@ -64,7 +71,7 @@ hr {border-style: dotted none none;
 
 .middle-container {
     background-color: #FFFFFF;
-    margin: 100px 0;
+    margin: 50px 0;
 
 }
 
@@ -78,16 +85,26 @@ hr {border-style: dotted none none;
 .skill-row {
     display: block;
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: left;
+    line-height: 1.5;
 }
 
 .education-row {
     display: block;
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: left;
-    clear: left;
+    line-height: 1.5;
+}
+
+.experience-row {
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 1.5;
+
 }
 
 
@@ -101,7 +118,19 @@ hr {border-style: dotted none none;
 }
 
 .skill-description {
-    display: inline;
+    display: block;
+    line-height: 2;
+}
+
+.education-description {
+    display: block;
+    line-height: 2;
+}
+
+.experience-description {
+    display: block;
+    line-height: 2;
+    overflow: hidden;
 }
 
 /* IMAGES */
@@ -121,7 +150,7 @@ hr {border-style: dotted none none;
 .python-img {
     display: inline;
     width: 20%;
-    margin-right: 30px;
+    margin: 10px 30px 10px 0;
     float: left;
 
 }
@@ -129,7 +158,7 @@ hr {border-style: dotted none none;
 .office-img {
     display: inline;
     width: 20%;
-    margin-right: 30px;
+    margin: 10px 30px 10px 0;
     float: left;
 
 }
@@ -142,9 +171,9 @@ hr {border-style: dotted none none;
 }
 
 .imperial-img {
-    display: inline-block;
+    display: inline;
     width: 20%;
-    margin:0 30px 50px 0;
+    margin:100px 30px 150px 0;
     float: left;
 
 }
@@ -152,9 +181,23 @@ hr {border-style: dotted none none;
 .wilsons-img {
     display: inline;
     width: 15%;
-    float: right;
-    margin-left: 30px;
+    float: left;
+    margin-right: 30px;
 }
+
+.mottmac-img {
+    display: inline;
+    width: 15%;
+    float: left;
+    margin: 50px 30px 300px;
+    }
+
+.ferrabyrne-img {
+    display: inline;
+    width: 30%;
+    float: right;
+    margin:70px 0 20px 30px;
+    }
 
 .antony-photo {
     border-radius: 100%;
